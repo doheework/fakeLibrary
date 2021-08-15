@@ -6,7 +6,7 @@ body{
     position:fixed;
     width:1900px;
     height:573.57px;
-    max-width:150%;
+    max-width:140%;
     height:auto;
     text-align:center;
     left: 50%;
@@ -14,39 +14,98 @@ body{
     transform: translate(-50%,-50%);
 }
 
+.color{
+    position:fixed;
+    width:1900px;
+    height:573.57px;
+    max-width:140%;
+    height:auto;
+    text-align:center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index:-1;
+}
+
 .theuseofPHISICS{
     width: 800px;
     height: 320px;
-    max-width:80%;
+    max-width:70%;
     height:auto;
+    z-index:2;
+}
+
+.theuseofPHISICScolor{
+    width: 800px;
+    height: 320px;
+    max-width:70%;
+    height:auto;
+    z-index:2;
+}
+
+.theuseofPHISICS:hover {
+    opacity:0;
+    cursor:pointer;
 }
 
 
 .PatternsofCivilization{
     width: 800px;
     height: 320px;
-    max-width:80%;
+    max-width:70%;
     height:auto;
+}
+
+.PatternsofCivilizationcolor{
+    width: 800px;
+    height: 320px;
+    max-width:70%;
+    height:auto;
+    
+}
+
+.PatternsofCivilization:hover{
+    opacity:0;
+    cursor:pointer;
 }
 
 .ECOLOGYtheutilization{
     width: 800px;
     height: 320px;
-    max-width:80%;
+    max-width:70%;
     height:auto;
+}
+
+.ECOLOGYtheutilizationcolor{
+    width: 800px;
+    height: 320px;
+    max-width:70%;
+    height:auto;
+    
+}
+
+.ECOLOGYtheutilization:hover {
+    opacity:0;
+    cursor:pointer;
 }
 
 .ANALYSIS{
     width: 800px;
     height: 320px;
-    max-width:80%;
+    max-width:70%;
     height:auto;
 }
 
-.text {
-    position:absolute;
-    color: #FFFFFF;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%);
+.ANALYSIScolor{
+    width: 800px;
+    height: 320px;
+    max-width:70%;
+    height:auto;
+   
 }
+
+.ANALYSIS:hover {
+    opacity:0;
+    cursor:pointer;
+}
+
