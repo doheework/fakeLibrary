@@ -1,0 +1,52 @@
+body{
+    background: #000000;
+}
+
+.main{
+    position:fixed;
+    width:1900px;
+    height:573.57px;
+    max-width:150%;
+    height:auto;
+    text-align:center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.theuseofPHISICS{
+    width: 800px;
+    height: 320px;
+    max-width:80%;
+    height:auto;
+}
+
+
+.PatternsofCivilization{
+    width: 800px;
+    height: 320px;
+    max-width:80%;
+    height:auto;
+}
+
+.ECOLOGYtheutilization{
+    width: 800px;
+    height: 320px;
+    max-width:80%;
+    height:auto;
+}
+
+.ANALYSIS{
+    width: 800px;
+    height: 320px;
+    max-width:80%;
+    height:auto;
+}
+
+.text {
+    position:absolute;
+    color: #FFFFFF;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
