@@ -16,6 +16,17 @@ body{
     z-index:2;
 }
 
+
+#shh{
+    position: absolute;
+    font-family: Comic Neue;
+    font-size:20;
+    z-index:3;
+    top:300px;
+    left:0;
+    color: #FFFFFF;
+}
+
 .color{
     position:fixed;
     width:1900px;

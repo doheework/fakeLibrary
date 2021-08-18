@@ -1,25 +1,22 @@
-var r;
-var cnavas;
+$(function(){
+    var t;
+    $("body").mousemove(function(){
+        clearTimeout(t); 
+        var audio = document.getElementById("myaudio");
+        audio.volume=1.0;
+        $('#shh').show();
+        t = setTimeout(function(){
+            var audio = document.getElementById("myaudio");
+            audio.volume=0.0;
+            $('#shh').hide();
+        }, 200);
+    });
+});
 
 
-function windowResized(){
-    resizeCanvas(windowWidth, windowHeight);
-}
 
-function setup() {
-  canvas = createCanvas(windowWidth, windowHeight);
-canvas.style('z-index',-3);
-}
+$(document).mousemove(function(e){
+    $('#shh').css("top", e.pageY);
+    $('#shh').css("left", e.pageX);
 
-function draw() {
-  background(0);
-  textSize(23);
-  fill(255,255,255,r);
-  textFont('Comic Neue');
-  text('shh...', mouseX, mouseY);
-  r=0;
-}
-
-function mouseMoved(){
-  r=255;
-}
+});
