@@ -36,6 +36,10 @@ body{
     cursor:pointer;
 }
 
+#mute:hover{
+    cursor:pointer;
+}
+
 #shh{
     position: absolute;
     font-family: Comic Neue;
