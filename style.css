@@ -19,16 +19,16 @@ body{
 #sound{
     position:absolute;
     width: 30px;    
-    left:30px;
-    top:30px;
+    left:120px;
+    top:34px;
     z-index:4;
 }
 
 #mute{
     position:absolute;
     width: 27px;
-    left:30px;
-    top:30px;
+    left:120px;
+    top:34px;
     z-index:4;
 }
 
