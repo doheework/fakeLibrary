@@ -2,12 +2,50 @@ body{
     background: #000000;
 }
 
+.enter{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 100vw;
+    height: 100vh;
+    background:#000000;
+    opacity:0.87;
+    z-index:4;
+}
+
+#hit:hover {
+    cursor:pointer;
+}
+
+.title{
+    position:absolute;
+    width: 1306px;
+    height: 170px;
+    max-width:100%;
+    height:auto;
+    left: 50%;
+    top: 18px;
+    transform: translate(-50%,0);
+    z-index:5;
+}
+
+#hit{
+    position:absolute;
+    width: 362px;
+    height: 262px;
+    top: 319px;
+    max-width:100%;
+    height:auto;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index:4;
+}
 
 .main{
     position:fixed;
     width:1900px;
     height:573.57px;
-    max-width:140%;
+    max-width:120%;
     height:auto;
     text-align:center;
     left: 50%;
@@ -16,29 +54,7 @@ body{
     z-index:2;
 }
 
-#sound{
-    position:absolute;
-    width: 30px;    
-    left:120px;
-    top:34px;
-    z-index:4;
-}
 
-#mute{
-    position:absolute;
-    width: 27px;
-    left:120px;
-    top:34px;
-    z-index:4;
-}
-
-#sound:hover{
-    cursor:pointer;
-}
-
-#mute:hover{
-    cursor:pointer;
-}
 
 #shh{
     position: absolute;
@@ -54,7 +70,7 @@ body{
     position:fixed;
     width:1900px;
     height:573.57px;
-    max-width:140%;
+    max-width:120%;
     height:auto;
     text-align:center;
     left: 50%;
@@ -66,14 +82,14 @@ body{
 .theuseofPHISICS{
     width: 800px;
     height: 320px;
-    max-width:70%;
+    max-width:50%;
     height:auto;
 }
 
 .theuseofPHISICScolor{
     width: 800px;
     height: 320px;
-    max-width:70%;
+    max-width:50%;
     height:auto;
 }
 
@@ -86,14 +102,14 @@ body{
 .PatternsofCivilization{
     width: 800px;
     height: 320px;
-    max-width:70%;
+    max-width:50%;
     height:auto;
 }
 
 .PatternsofCivilizationcolor{
     width: 800px;
     height: 320px;
-    max-width:70%;
+    max-width:50%;
     height:auto;
     
 }
@@ -106,14 +122,14 @@ body{
 .ECOLOGYtheutilization{
     width: 800px;
     height: 320px;
-    max-width:70%;
+    max-width:50%;
     height:auto;
 }
 
 .ECOLOGYtheutilizationcolor{
     width: 800px;
     height: 320px;
-    max-width:70%;
+    max-width:50%;
     height:auto;
     
 }
@@ -126,14 +142,14 @@ body{
 .ANALYSIS{
     width: 800px;
     height: 320px;
-    max-width:70%;
+    max-width:50%;
     height:auto;
 }
 
 .ANALYSIScolor{
     width: 800px;
     height: 320px;
-    max-width:70%;
+    max-width:50%;
     height:auto;
    
 }

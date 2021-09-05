@@ -32,19 +32,10 @@ function play() {
 } 
 
 $(document).ready(function(){
-    /*웹페이지 열었을 때*/
-    $("#sound").show();
-    $("#mute").hide();
-
-    /*img1을 클릭했을 때 img2를 보여줌*/
-    $("#sound").click(function(){
-        $("#sound").hide();
-        $("#mute").show();
+    $("#hit").click(function(){
+         $(".enter").hide();
+        $("#hit").hide();
+        $(".title").hide();
     });
 
-    /*img2를 클릭했을 때 img1을 보여줌*/
-    $("#mute").click(function(){
-        $("#sound").show();
-        $("#mute").hide();
-    });
 });
