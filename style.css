@@ -33,11 +33,11 @@ body{
     position:absolute;
     width: 362px;
     height: 262px;
-    top: 319px;
+    top: 50%;
     max-width:100%;
     height:auto;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%,-25%);
     z-index:4;
 }
 
